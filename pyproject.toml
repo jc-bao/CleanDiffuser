@@ -19,7 +19,6 @@ dependencies = [
     "av",
     "pygame",
     "pymunk",
-    "scikit-image<0.23.0",
     "opencv-python",
     "imagecodecs"]
 
