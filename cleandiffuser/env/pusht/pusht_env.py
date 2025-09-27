@@ -9,7 +9,10 @@ import pymunk.pygame_util
 from pymunk.vec2d import Vec2d
 import shapely.geometry as sg
 import cv2
-import skimage.transform as st
+try:
+    import skimage.transform as st
+except:
+    print("skimage failed to import, might affect pusht behavior")
 from cleandiffuser.env.pusht.pymunk_override import DrawOptions
 
 
