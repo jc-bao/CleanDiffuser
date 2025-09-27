@@ -7,7 +7,6 @@ readme = "README.md"
 requires-python = ">= 3.8"
 keywords = ["reinforcement learning", "pytorch", "diffusion models"]
 dependencies = [
-    "numpy<1.23.0",
     "einops",
     "zarr>=2.16.1",
     "av>=12.2.0",
