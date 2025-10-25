@@ -32,10 +32,8 @@
 
     <compiler meshdir=""/>
 
-    <default>
-        <default class='torso'>
-            <geom group='2' contype='0' conaffinity='0' rgba='.2 .2 .3 1'/>
-        </default>/
+    <default class='torso'>
+        <geom group='2' contype='0' conaffinity='0' rgba='.2 .2 .3 1'/>
     </default>
 
     <worldbody>

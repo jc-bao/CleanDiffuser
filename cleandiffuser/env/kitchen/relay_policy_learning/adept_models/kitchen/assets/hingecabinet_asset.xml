@@ -12,14 +12,12 @@
         <material name="hinge_collision_blue" rgba="0.3 0.3 1.0 0.5" shininess="0" specular="0"/>
     </asset>
 
-    <default>
-        <default class="hingecabinet">
+    <default class="hingecabinet">
             <joint damping="2" frictionloss="2" armature=".01" limited="true"/>
             <geom conaffinity="0" contype="0" group="1" material="M_hinge_wood" type="mesh"/>
             <default class="hinge_collision">
                 <geom conaffinity="1" condim="3" contype="0" group="4" margin="0.001" material="hinge_collision_blue" solimp=".8 .9 .01" solref=".02 1"/>
             </default>
-        </default>
     </default>
 
 </mujocoinclude>
